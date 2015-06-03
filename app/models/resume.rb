@@ -5,4 +5,5 @@ class Resume < ActiveRecord::Base
   has_and_belongs_to_many :arrangements
   has_one :rate
   has_many :educations
+  has_many :myapplications
 end
