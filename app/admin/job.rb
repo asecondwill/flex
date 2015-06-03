@@ -1,4 +1,5 @@
 ActiveAdmin.register Job do
+  permit_params :start_on, :end_on, :description, :duties
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
