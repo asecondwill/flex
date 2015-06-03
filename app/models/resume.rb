@@ -6,4 +6,5 @@ class Resume < ActiveRecord::Base
   has_one :rate
   has_many :educations
   has_many :myapplications
+  has_many :experiences
 end
