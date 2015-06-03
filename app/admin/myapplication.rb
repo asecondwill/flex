@@ -1,4 +1,5 @@
 ActiveAdmin.register Myapplication do
+  permit_params :cover, :overview, :rates, :skills, :sent_at, :education, :experience
 
 # See permitted parameters documentation:
 # https://github.com/activeadmin/activeadmin/blob/master/docs/2-resource-customization.md#setting-up-strong-parameters
