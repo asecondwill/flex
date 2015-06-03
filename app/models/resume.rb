@@ -3,4 +3,5 @@ class Resume < ActiveRecord::Base
   has_and_belongs_to_many :skills
   has_and_belongs_to_many :industries
   has_and_belongs_to_many :arrangements
+  has_one :rate
 end
